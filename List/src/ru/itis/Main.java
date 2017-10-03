@@ -36,7 +36,7 @@ public class Main {
             if (c == 4) {
                 int index = scanner.nextInt();
                 int number = scanner.nextInt();
-                list.insertNumber(index,number);
+                list.insertNumber(index, number);
             }
 
             if (c == 5) {
@@ -47,7 +47,5 @@ public class Main {
                 System.exit(0);
             }
         }
-
-//        System.out.println("I don't fly to Rome with coffee stains!");
     }
 }
